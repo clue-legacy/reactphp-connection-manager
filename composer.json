@@ -1,0 +1,16 @@
+{
+    "name": "clue/connection-manager",
+    "type": "library",
+    "homepage": "http://github.com/clue/connection-manager",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {"ConnectionManager": ""}
+    },
+    "require": {
+        "react/dns": ">=0.2",
+        "react/event-loop": "*",
+        "react/promise": "*",
+        
+        "react/http-client": "*"
+    }
+}
