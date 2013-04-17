@@ -1,7 +1,19 @@
-connection-manager
+OBSOLETE clue/connection-manager
 ==================
 
 Async ConnectionManager to open TCP/IP and SSL/TLS based connections in a non-blocking fashion
+
+## Warning, package is obsolete!
+
+This library was created as an effort to standardize creating connections in
+[reactphp](https://github.com/reactphp/react). Now that it's been merged into
+v0.3.0, a standalone package is no longer needed. Upgrade your code to use
+[`React\SocketClient\Connector`](https://github.com/reactphp/socket-client)
+instead!
+
+Upgrade your `composer.json` to require `"react/socket-client": "0.3.*"` instead.
+
+This page is left here for reference and will be removed eventually!
 
 ## Introduction
 
